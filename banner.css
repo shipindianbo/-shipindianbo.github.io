@@ -1,0 +1,154 @@
+
+.top{
+	margin :0px;
+	width:1200px;
+	background :#000;
+	height :30px;
+	margin:auto;
+	}
+.nav_box{
+	width：170px;
+	margin :0 right;
+    line-height:30px;
+    margin:0px;
+    float:right;
+    text-align:center;
+    color:white;
+    font-size: 14px;
+
+}
+.nav_box a{
+    	text-decoration: none;
+
+    	color:#fff;
+    }
+.nav_box a:hover{
+    	color:#999;
+    	font-weight: bold;
+    	text-decoration: underline;
+    }
+ .span_text{
+    	text-indent:1em;
+    	marigin-left:5px;
+    	margin-right:5px;
+    }
+.top_1{
+	width: 1200px;
+	height: 177px;
+}
+.container{
+	width: 1200px;
+	height:40px;
+	margin: 177px auto;
+	background:#000;
+}
+.container_header{
+	width:900px;
+	height: 40px; 
+	padding:0 0 0 0;
+    margin:0px;
+    float:left;
+	margin-left:160px;
+}
+.container_header_box{ 
+    margin:0px;
+	padding:0;
+	width:150px;
+	height:auto;
+	float:left;
+}
+.container_header_box a{
+	float:left;
+	display:block;
+	height: 40px; 
+	padding:0px 50px 0px 40px;
+    margin_left:2px;
+    text-align:center;
+	line-height:40px;
+    color:white;
+    font-size: 17px;
+    text-decoration: none;
+    }
+.container_header_box a:hover{
+    	color:#999;
+    	font-weight: bold;
+    	text-decoration: underline;
+    }
+
+.main1
+{
+	
+	height:600px;
+	width: 1200px;
+	margin: auto;
+    margin-top: -89px;
+    background:url(images/main1.jpg);
+	float: left;
+}
+ .content2{
+	width:1100px;
+	height:100px;
+	margin:0px auto;
+	justify-content:space-around; 
+	align-items:center;
+}
+.content3{
+	width:1100px;
+	height:100px;
+	margin:270px auto;
+	justify-content:space-around; 
+	align-items:center;
+
+}
+.main2
+{
+	z-index:-1;
+	height:800px;
+	width: 1200px;
+	margin-top:0px;
+    background: #d3cccc;
+    float:left;
+    background:url(images/main2.jpg);
+	
+}
+.content{
+	width:1100px;
+	height:100px;
+	margin:100px auto;
+	justify-content:space-around; 
+	align-items:center;
+}
+.item{
+	width:180px;
+	height:250px;
+	background:#ccc;
+	float:left;
+	margin:15px ;
+
+}
+.item:hover{
+	box-shadow:0 0 5px 5px #6f41b5;
+
+}
+
+.content1{
+	width:1100px;
+	height:100px;
+	margin:270px auto;
+	justify-content:space-around; 
+	align-items:center;
+
+}
+.item1{
+	width:180px;
+	height:250px;
+	background:#ccc;
+	margin:15px ;
+	float:left;
+	
+}
+
+.item1:hover{
+	box-shadow:0 0 5px 5px #6f41b5;
+}
+

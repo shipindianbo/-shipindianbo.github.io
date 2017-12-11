@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>视频</title>
+	<link rel="stylesheet" href="dongman.css">
+	<link rel="stylesheet" href="swiper.css">
+	 <style>
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 570.5px;
+        height:300px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff ;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+   
+    }
+    .STYLE1 {font-family: "微软雅黑"}
+    </style>
+</head>
+<body>
+<div class="top"> 
+  <div class="nav_box">
+		<div class="nav_box"><a href="index-1.html">修改密码</a>&nbsp;
+		</div>
+		<div class="nav_box"> <a href="nav.html">进入后台</a>&nbsp;<span>|</span></div>
+		<div class="nav_box"> <a href="zhuce.html">注册</a>&nbsp;<span>|</span></div>
+		<div class="nav_box"><a href="denglu.html">登录</a>&nbsp;<span>|</span></div>
+  <div class="top_1">
+    <img src="images/banner.jpg" class="top_1"></div>
+    <form id="searchform" name="searchform" method="get" action="top.html" target="_blank" onsubmit="return checkForm(this);">
+                <input name="keyword" type="text" value="" class="text" />
+                <input name="搜索" type="submit" class="btn" value="搜索" />
+
+                </form>
+
+   </div>
+  </div>
+</div>
+
+<div class="container"> 
+  <div class="container_header">
+         <div class="container_header_box"><a href="a首页.html" class="STYLE1">首页</a>&nbsp;<span>|</span></div>
+         <div class="container_header_box"><a href="tv.html" class="STYLE1">电视剧</a>&nbsp;<span>|</span></div>
+         <div class="container_header_box"><a href="movie.html" class="STYLE1">电影</a>&nbsp;<span>|</span></div>
+         <div class="container_header_box"><a href="zongyi.html" class="STYLE1">综艺</a>&nbsp;<span>|</span></div>
+          <div class="container_header_box"><a href="tiyu.html" class="STYLE1">体育</a>&nbsp;<span>|</span></div>
+         <div class="container_header_box"><a href="dongman.html" class="STYLE1">动漫</a>&nbsp;</div>     
+
+  </div>
+</div>
+ 
+
+<div class="main">
+ <div class="main1">
+    <div class="content">
+		<div class="item"><div class="item_img"><img src="images/20.jpg" ></div></div>
+		<div class="item"><div class="item_img"><img src="images/21.jpg" ></div></div>
+		<div class="item"><div class="item_img"><img src="images/22.jpg" ></div></div>
+		<div class="item"><div class="item_img"><img src="images/23.jpg" ></div></div>
+	    <div class="item"><div class="item_img"><img src="images/24.jpg" ></div></div>
+	</div>
+	<div class="content_box"> 
+     <div class="content_header">
+        <div class="content_header_box"><a href="top.html"class="STYLE1">火影忍者</a>&nbsp;</div>
+         <div class="content_header_box"><a href="nav.html"class="STYLE1">海绵宝宝</a>&nbsp;</div>
+         <div class="content_header_box"><a href="nav-dangwu.html"class="STYLE1">名侦探柯南</a>&nbsp;</div>
+         <div class="content_header_box"><a href="nav-jiao.html"class="STYLE1">死神</a>&nbsp;</div>
+         <div class="content_header_box"><a href="nav-jiao.html"class="STYLE1">斗破苍穹</a>&nbsp;</div>     
+     </div>
+    </div>   
+ 
+	<div class="content1">
+	 	 <div class="item1"><div class="item_img"></div></div>
+	 	 <div class="item1"><div class="item_img"></div></div>
+	 	 <div class="item1"><div class="item_img"></div></div>
+	 	 <div class="item1"><div class="item_img"></div></div>
+	 	 <div class="item1"><div class="item_img"></div></div>
+	 	 
+	</div>
+ </div>
+ <div class="main2">   
+    <div class="content">
+		<div class="item"><div class="item_img"></div></div>
+		<div class="item"><div class="item_img"></div></div>
+		<div class="item"><div class="item_img"></div></div>
+		<div class="item"><div class="item_img"></div></div>
+	    <div class="item"><div class="item_img"></div></div>
+	</div> 
+
+	<div class="content1">
+	 	 <div class="item1"><div class="item_img"></div></div>
+	 	 <div class="item1"><div class="item_img"></div></div>
+	 	 <div class="item1"><div class="item_img"></div></div>
+	 	 <div class="item1"><div class="item_img"></div></div>
+	 	 <div class="item1"><div class="item_img"></div></div>
+	 	 
+	</div>
+ </div> 
+  
+
+ 
+		
+
+
+</body>
+ <!-- Swiper JS -->
+    <script src="swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+     var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+</html>
